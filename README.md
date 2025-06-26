@@ -27,7 +27,7 @@ The DAG (Directed Acyclic Graph) defines a simple flow:
 
 # Run the CLI App
 
-python cli_app.py
+python app.py
 
 ---
 
