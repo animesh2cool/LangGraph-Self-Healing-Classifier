@@ -1,0 +1,53 @@
+INFO:root:[InferenceNode] Text: The movie was painfully slow and boring. | Prediction: Negative | Confidence: 0.99
+INFO:root:[ConfidenceCheckNode] Confidence 0.99 above threshold. Proceeding.
+INFO:root:[InferenceNode] Text: The movie was painfully slow and boring. | Prediction: Negative | Confidence: 0.99
+INFO:root:[ConfidenceCheckNode] Confidence 0.99 above threshold. Proceeding.
+INFO:root:2025-06-26 02:40:15.070251 | Input: The movie was painfully slow and boring. | Label: Negative | Confidence: 0.99 | Fallback: False
+INFO:root:[InferenceNode] Text: The movie is not good but smooth to watch | Prediction: Positive | Confidence: 0.71
+INFO:root:[ConfidenceCheckNode] Confidence 0.71 above threshold. Proceeding.
+INFO:root:2025-06-26 02:43:44.650193 | Input: The movie is not good but smooth to watch | Label: Positive | Confidence: 0.71 | Fallback: False
+INFO:root:[InferenceNode] Text: The movie was good but I will not recomendet you to watch but You can watch | Prediction: Positive | Confidence: 0.82
+INFO:root:[ConfidenceCheckNode] Confidence 0.82 above threshold. Proceeding.
+INFO:root:2025-06-26 02:44:31.670218 | Input: The movie was good but I will not recomendet you to watch but You can watch | Label: Positive | Confidence: 0.82 | Fallback: False
+INFO:root:[InferenceNode] Text: the movie was good but do not watch it has few devil | Prediction: Positive | Confidence: 0.52
+INFO:root:[ConfidenceCheckNode] Confidence 0.52 below threshold. Triggering fallback.
+INFO:root:[FallbackNode] User clarification received. Final label: It was positive
+INFO:root:2025-06-26 02:46:22.336920 | Input: the movie was good but do not watch it has few devil | Label: It was positive | Confidence: 0.52 | Fallback: False
+INFO:root:[InferenceNode] Text: The movie was good | Prediction: Positive | Confidence: 0.97
+INFO:root:[ConfidenceCheckNode] Confidence 0.97 above threshold. Proceeding.
+INFO:root:[InferenceNode] Text: The movie was good | Prediction: Positive | Confidence: 0.97
+INFO:root:[ConfidenceCheckNode] Confidence 0.97 above threshold. Proceeding.
+INFO:root:[InferenceNode] Text: The movie was good | Prediction: Positive | Confidence: 0.97
+INFO:root:[ConfidenceCheckNode] Confidence 0.97 above threshold. Proceeding.
+INFO:root:[ConfidenceCheckNode] Confidence 0.89 above threshold. Proceeding.
+INFO:root:[ConfidenceCheckNode] Confidence 0.96 above threshold. Proceeding.
+INFO:root:[ConfidenceCheckNode] Confidence 0.68 below threshold. Triggering fallback.
+INFO:root:[ConfidenceCheckNode] Confidence 0.97 above threshold. Proceeding.
+INFO:root:[ConfidenceCheckNode] Confidence 0.97 above threshold. Proceeding.
+INFO:root:[ConfidenceCheckNode] Confidence 0.95 above threshold. Proceeding.
+INFO:root:[ConfidenceCheckNode] Confidence 0.96 above threshold. Proceeding.
+INFO:root:2025-06-26 11:03:11.286741 | Input: The movie was bad | Label: Negative | Confidence: 0.96 | Fallback: False
+INFO:root:[ConfidenceCheckNode] Confidence 0.95 above threshold. Proceeding.
+INFO:root:2025-06-26 11:05:18.862981 | Input: movie was bad | Label: Negative | Confidence: 0.95 | Fallback: False
+INFO:root:[ConfidenceCheckNode] Confidence 0.96 above threshold. Proceeding.
+ERROR:root:2025-06-26 11:07:45.948113 | ERROR | 'fallback'
+INFO:root:[ConfidenceCheckNode] Confidence 0.98 above threshold. Proceeding.
+ERROR:root:2025-06-26 11:08:13.985648 | ERROR | 'fallback'
+INFO:root:[ConfidenceCheckNode] Confidence 0.98 above threshold. Proceeding.
+ERROR:root:2025-06-26 11:10:20.804895 | ERROR | 'fallback'
+INFO:root:[ConfidenceCheckNode] Confidence 0.95 above threshold. Proceeding.
+INFO:root:2025-06-26 11:12:38.734616 | Input: Movie was bad | Label: Negative | Confidence: 0.95 | Fallback: False
+INFO:root:[ConfidenceCheckNode] Confidence 0.54 below threshold. Triggering fallback.
+INFO:root:[FallbackNode] User clarification received: yes \u2192 Final label: Negative
+INFO:root:2025-06-26 11:13:50.154071 | Input: The movie was not bad I recomend to watch this which can be true | Label: Negative | Confidence: 0.54 | Fallback: True
+INFO:root:[ConfidenceCheckNode] Confidence 0.54 below threshold. Triggering fallback.
+INFO:root:[FallbackNode] User clarification received: no it was positive movie \u2192 Final label: Positive
+INFO:root:2025-06-26 11:18:17.562574 | Input: The movie was not bad I recomend to watch this which can be true | Label: Positive | Confidence: 0.54 | Fallback: True
+INFO:root:[ConfidenceCheckNode] Confidence 0.99 above threshold. Proceeding.
+INFO:root:2025-06-26 12:20:29.272164 | Input: The movie was painfully slow and boring. | Label: Negative | Confidence: 0.99 | Fallback: False
+INFO:root:[ConfidenceCheckNode] Confidence 0.87 above threshold. Proceeding.
+INFO:root:2025-06-26 12:21:40.048953 | Input: The movie was not bad I recomend to watch this which once but you can watch many times | Label: Positive | Confidence: 0.87 | Fallback: False
+INFO:root:[ConfidenceCheckNode] Confidence 0.70 above threshold. Proceeding.
+INFO:root:2025-06-26 12:22:01.995361 | Input: The movie was not good I recomend to watch this which once but you can watch many times | Label: Negative | Confidence: 0.70 | Fallback: False
+INFO:root:[ConfidenceCheckNode] Confidence 0.62 below threshold. Triggering fallback.
+INFO:root:[ConfidenceCheckNode] Confidence 0.70 below threshold. Triggering fallback.

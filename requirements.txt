@@ -1,0 +1,11 @@
+transformers
+peft
+torch
+langgraph
+langchain
+huggingface_hub
+accelerate
+scikit-learn
+datasets
+tqdm
+colorama

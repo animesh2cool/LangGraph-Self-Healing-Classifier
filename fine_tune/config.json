@@ -1,0 +1,8 @@
+{
+  "model": "distilbert-base-uncased",
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "dropout": 0.1,
+  "num_train_epochs": 3,
+  "max_length": 256
+}
