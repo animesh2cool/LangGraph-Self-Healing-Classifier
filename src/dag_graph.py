@@ -2,7 +2,7 @@ from langgraph.graph import StateGraph
 from nodes import inference_node, confidence_check_node, fallback_node
 
 def build_graph():
-    builder = StateGraph(dict)  # Accepting any dict
+    builder = StateGraph(dict)
 
     # Node flow
     builder.add_node("inference", inference_node)
