@@ -18,7 +18,7 @@ def load_model(model_path="../models/lora_distilbert_sentiment"):
     base_model = AutoModelForSequenceClassification.from_pretrained(
         peft_config.base_model_name_or_path,
         num_labels=2,
-        local_files_only=False  # Download from HF hub if needed
+        local_files_only=False
     )
 
     # Load tokenizer from base model
